@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.skill-bar {
+    margin: 20px 0;
+}
+
+.progress {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.html {
+    width: 90%;
+    height: 25px;
+    background-color: #4caf50;
+}
